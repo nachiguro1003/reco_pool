@@ -5,6 +5,11 @@ import (
 	"github.com/reco_pool/src/domain/model"
 )
 
-func GetPoolBySlug(slug string ,db *gorm.DB) *model.Pool {
+func GetPool(ps *model.Pool,db *gorm.DB) (*model.Pool,error) {
+	err := ps.GetBySlug(db)
+	if err != nil {
+		return nil,err
+	}
 
+	return ps,err
 }

@@ -1,11 +1,13 @@
 package pool_reco_relations
 
-import "time"
+import (
+	"github.com/jinzhu/gorm"
+)
 
 type PoolRecoRelation struct {
-	PoolId int
-	RecoId int
+	gorm.Model
 
-	CreatedAt time.Time
-	UpdatedAt time.Time
+	PoolId int `gorm:"primary_key"`
+	RecoId int `gorm:"primary_key"`
+
 }

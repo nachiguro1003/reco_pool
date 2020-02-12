@@ -3,6 +3,11 @@
   <component name="StickySelectionHighlights">
     <option name="editorHighlights">
       <map>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Makefile">
           <value>
             <PaintGroupHighlightMap />
@@ -78,6 +83,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/category/category.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool.go">
           <value>
             <PaintGroupHighlightMap />
@@ -99,6 +109,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_reco_relations/pool_reco_relation.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_user_relation/pool_user_relation.go">
           <value>
             <PaintGroupHighlightMap />
           </value>

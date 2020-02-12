@@ -3,8 +3,8 @@ package db
 import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres" // Use PostgreSQL in gorm
-	"github.com/reco_pool/src/domain/model"
 	"github.com/reco_pool/src/infrastructure/datastore/repository/category"
+	"github.com/reco_pool/src/infrastructure/datastore/repository/pool"
 	"github.com/reco_pool/src/infrastructure/datastore/repository/pool_reco_relations"
 	"github.com/reco_pool/src/infrastructure/datastore/repository/pool_user_relation"
 	"github.com/reco_pool/src/infrastructure/datastore/repository/reco"
@@ -39,7 +39,7 @@ func Close() {
 
 func autoMigration() {
 	db.AutoMigrate(user.User{})
-	db.AutoMigrate(model.Pool{})
+	db.AutoMigrate(pool.Pool{})
 	db.AutoMigrate(category.Category{})
 	db.AutoMigrate(reco.Reco{})
 	db.AutoMigrate(pool_reco_relations.PoolRecoRelation{})

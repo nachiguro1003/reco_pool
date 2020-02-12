@@ -1,0 +1,342 @@
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug2",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-12T112029.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-12T112022.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-12T111954.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test2",
+    "slug": "slug2",
+    "is_public": true,
+    "password": "pass2"
+  }
+}
+
+<> 2020-02-12T111630.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test2",
+    "slug": "slug2",
+    "is_public": false,
+    "password": "pass2"
+  }
+}
+
+<> 2020-02-12T111619.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test2",
+    "slug": "slug2",
+    "is_public": "false",
+    "password": "pass2"
+  }
+}
+
+<> 2020-02-12T111604.400.txt
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test2",
+    "slug": "slug2",
+    "is_public": "false",
+    "password": "pass2"
+  }
+}
+
+<> 2020-02-12T111451.400.txt
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test2",
+    "slug": "slug2",
+    "is_public": "false",
+    "password": "pass2"
+  }
+}
+
+<> 2020-02-12T111409.400.txt
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug",
+    "is_public": "false",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-12T111335.400.txt
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "id": 1,
+    "name": "test",
+    "slug": "slug",
+    "is_public": "false",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-12T111023.400.txt
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "test",
+  "slug": "slug",
+  "is_public":"false",
+  "password":"pass"
+
+}
+
+<> 2020-02-12T110917.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "test",
+  "slug": "slug",
+  "is_public":"false",
+  "password":"pass"
+
+}
+
+<> 2020-02-12T110900.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "test",
+  "slug": "slug",
+  "is_public":"false",
+  "password":"pass"
+
+}
+
+<> 2020-02-12T110741.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 999,
+  "name": "test",
+  "slug": "slug",
+  "is_public":"false",
+  "password":"pass"
+
+}
+
+<> 2020-02-12T110643.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 999,
+  "name": "test",
+  "slug": "slug",
+  "is_public":"false",
+  "password":"pass"
+
+}
+
+<> 2020-02-12T110525.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 999,
+  "name": "test",
+  "slug": "slug",
+  "is_public":"false",
+  "password":"pass"
+
+}
+
+<> 2020-02-12T110446.500.json
+
+###
+
+POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-12T110232.500.json
+
+###
+
+POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-12T110231.500.json
+
+###
+
+POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-12T105915.500.json
+
+###
+
+POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-12T105847.500.json
+
+###
+
+POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-12T105612.200.json
+
+###
+
+POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-12T105239.200.json
+
+###
+
+POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-02-12T105114.200.json
+
+###
+

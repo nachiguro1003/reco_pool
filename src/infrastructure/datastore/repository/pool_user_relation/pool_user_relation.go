@@ -1,11 +1,13 @@
 package pool_user_relation
 
-import "time"
+import (
+	"github.com/jinzhu/gorm"
+)
 
 type PoolUserRelation struct {
-	PoolId int
-	UserId int
+	gorm.Model
 
-	CreatedAt time.Time
-	UpdatedAt time.Time
+	PoolId int `gorm:"primary_key"`
+	UserId int `gorm:"primary_key"`
+
 }

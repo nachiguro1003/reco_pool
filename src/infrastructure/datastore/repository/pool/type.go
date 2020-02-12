@@ -2,19 +2,15 @@ package pool
 
 import (
 	"github.com/jinzhu/gorm"
-	"time"
 )
 
-type PoolEntity struct {
-	db *gorm.DB
+type Pool struct {
+	gorm.Model
 
-	Id int `json:"id"`
-	Name string `json:"name"`
-	Slug string `json:"slug" uri:"slug"`
-	IsPublic bool `json:"is_public"`
-	Password string `json:"password"`
+	Name string `json:"name" gorm:"type:VARCHAR(100)"`
+	Slug string `json:"slug" uri:"slug" gorm:"unique;not null;unique_index"`
+	IsPublic bool `json:"is_public"gorm:"default:true"`
+	Password string `json:"password" gorm:"type:VARCHAR(100)"`
 
-	CreatedAt time.Time
-	UpdatedAt time.Time
 }
 

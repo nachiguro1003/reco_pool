@@ -1,6 +1,9 @@
 package category
 
+import "github.com/jinzhu/gorm"
+
 type Category struct {
-	Id int `json:"id"`
+	gorm.Model
+
 	Name string `json:"name"`
 }

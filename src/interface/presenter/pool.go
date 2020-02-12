@@ -8,11 +8,15 @@ import (
 	"net/http"
 )
 
-func GetPools(c *gin.Context) {
+func Pool(c *gin.Context) {
 	d := db.GetDB()
 	ps := model.NewPoolService()
-	if err := c.ShouldBind(&ps); err != nil {
-		c.JSON(http.StatusBadRequest,"err")
+	ps.Slug = c.Param("slug")
+
+	ps,err := pool_service.GetPool(ps,d)
+	if err != nil {
+		c.JSON(http.StatusBadRequest,err.Error())
 	}
 
+	c.JSON(http.StatusOK,ps)
 }

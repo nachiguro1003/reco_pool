@@ -6,7 +6,7 @@ import (
 )
 
 func Create(pool *model.Pool,db *gorm.DB) error {
-	if err := pool.Pool.Create(db); err != nil {
+	if err := pool.Create(db); err != nil {
 		return err
 	}
 	return nil

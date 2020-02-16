@@ -38,10 +38,10 @@ func Close() {
 }
 
 func autoMigration() {
-	db.AutoMigrate(user.User{})
-	db.AutoMigrate(pool.Pool{})
+	db.AutoMigrate(user_repository.UserRepository{})
+	db.AutoMigrate(pool_repository.Pool{})
 	db.AutoMigrate(category.Category{})
-	db.AutoMigrate(reco.Reco{})
+	db.AutoMigrate(reco_repository.RecoRepository{})
 	db.AutoMigrate(pool_reco_relations.PoolRecoRelation{})
 	db.AutoMigrate(pool_user_relation.PoolUserRelation{})
 }

@@ -2,23 +2,39 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/reco_pool/src/domain/model"
 	"github.com/reco_pool/src/infrastructure/datastore/db"
+	"github.com/reco_pool/src/infrastructure/datastore/repository/pool"
 	"github.com/reco_pool/src/usecase/pool"
 	"net/http"
 )
 
 func NewPool(c *gin.Context) {
 	d := db.GetDB()
-	ps := model.NewPoolService()
-	if err := c.BindJSON(&ps); err != nil {
+	pe := pool_repository.NewPoolRepository()
+
+	if err := c.BindJSON(&pe); err != nil {
 		c.JSON(http.StatusInternalServerError,err.Error())
 		return
 	}
-	err := pool_service.Create(ps,d)
+	ps := pool_service.NewPoolService(pe)
+	err := ps.CreatePool(d)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError,err.Error())
 		return
 	}
 	c.JSON(http.StatusOK,"pool created")
 }
+//
+//func RegisterUser(c *gin.Context) {
+//	d := db.GetDB()
+//	slug := c.Param("slug")
+//	user := user_service.NewUserService()
+//	if err := c.BindJSON(&user); err != nil {
+//		c.JSON(http.StatusInternalServerError,err.Error())
+//	}
+//
+//	if err :.RegisterUserIntoPool(slug,user,d); err != nil {
+//		c.JSON(http.StatusInternalServerError,err.Error())
+//	}
+//	c.JSON(http.StatusOK,"pool created")
+//}

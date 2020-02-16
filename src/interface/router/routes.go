@@ -13,5 +13,7 @@ func RegisterRoutingGroup(r *gin.Engine) {
 func Pool(r *gin.Engine) {
 	p := r.Group("/pool")
 	p.GET("/:slug",presenter.Pool)
+	p.GET("/",presenter.Pools)
 	p.POST("/new",controllers.NewPool)
+	//p.POST("/user/:slug",controllers.RegisterUser)
 }

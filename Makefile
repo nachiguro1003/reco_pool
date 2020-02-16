@@ -1,1 +1,1 @@
-make run: go build main.go
+run: go run main.go

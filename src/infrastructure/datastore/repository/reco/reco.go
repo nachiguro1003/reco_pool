@@ -1,17 +1,13 @@
-package reco
+package reco_repository
 
 import (
 	"github.com/jinzhu/gorm"
+	"github.com/reco_pool/src/domain/model"
 )
 
-type Reco struct {
+type RecoRepository struct {
 	gorm.Model
 
-	Title string `json:"title"`
-	ImageId int `json:"image_id"`
-	Url string `json:"url"`
-	CategoryId int `json:"category_id"`
-	Status int `json:"status"`
-
+	model.Reco
 }
 

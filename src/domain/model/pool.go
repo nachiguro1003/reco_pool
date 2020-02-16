@@ -1,20 +1,14 @@
 package model
 
-import (
-	"github.com/reco_pool/src/infrastructure/datastore/repository/pool"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/reco"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/user"
-)
-
 type (
-	PoolService struct {
-		pool.Pool `json:"pool"`
-
-		Joiners []*user.User `json:"joiners"`
-		Recos []*reco.Reco `json:"recos"`
+	Pool struct {
+		Name string `json:"name" gorm:"type:VARCHAR(100)"`
+		Slug string `json:"slug" uri:"slug" gorm:"unique;not null;unique_index"`
+		IsPublic bool `json:"is_public" gorm:"default:true"`
+		Password string `json:"password" gorm:"type:VARCHAR(100)"`
 	}
 )
 
-func NewPoolService() *PoolService {
-	return &PoolService{}
+func NewPool() *Pool {
+	return &Pool{}
 }

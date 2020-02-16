@@ -8,6 +8,16 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api2.http">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.gitignore">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Makefile">
           <value>
             <PaintGroupHighlightMap />
@@ -113,12 +123,32 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_user_relation/commander.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_user_relation/pool_user_relation.go">
           <value>
             <PaintGroupHighlightMap />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/reco.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/commander.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/querier.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/type.go">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -158,6 +188,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/interface/router/routes.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/interface/routes.go">
           <value>
             <PaintGroupHighlightMap />
@@ -174,6 +209,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/usecase/pool/presenter.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/usecase/pool/type.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/usecase/user/controller.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/usecase/user/presenter.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/usecase/user/type.go">
           <value>
             <PaintGroupHighlightMap />
           </value>

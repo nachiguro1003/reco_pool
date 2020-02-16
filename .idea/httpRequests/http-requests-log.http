@@ -1,4 +1,309 @@
 POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "name": "test",
+    "slug": "slug6",
+    "password": "pass"
+}
+
+<> 2020-02-16T034827.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "name": "test",
+    "slug": "slug5",
+    "password": "pass"
+}
+
+<> 2020-02-16T031510.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "name": "test",
+    "slug": "slug5",
+    "password": "pass"
+}
+
+<> 2020-02-16T031254.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "name": "test",
+    "slug": "slug4",
+    "password": "pass"
+}
+
+<> 2020-02-16T031245.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "name": "test",
+    "slug": "slug4",
+    "password": "pass"
+}
+
+<> 2020-02-16T031214.200.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug4",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030906.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug4",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030815.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug4",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030602.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug4",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030553.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug4",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030533.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug4",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030331.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug3",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030302.500.json
+
+###
+
+POST http://localhost:8080/pool/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug3",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030134.200.json
+
+###
+
+POST http://localhost:8080/pool/slug/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "pool": {
+    "name": "test",
+    "slug": "slug3",
+    "password": "pass"
+  }
+}
+
+<> 2020-02-16T030054.404.txt
+
+###
+
+POST http://localhost:8080/pool/user/slug
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "yosei"
+  }
+}
+
+<> 2020-02-16T030036.404.txt
+
+###
+
+POST http://localhost:8080/pool/user/slug
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "yosei"
+  }
+}
+
+<> 2020-02-16T025847.404.txt
+
+###
+
+POST http://localhost:8080/pool/user/slug
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "yosei"
+  }
+}
+
+<> 2020-02-16T025826.404.txt
+
+###
+
+POST http://localhost:8080/pool/user/slug
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "yosei"
+  }
+}
+
+<> 2020-02-13T120246.200.json
+
+###
+
+POST http://localhost:8080/pool/user/slug
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "yosei"
+  }
+}
+
+<> 2020-02-13T120107.200.json
+
+###
+
+POST http://localhost:8080/pool/user/slug
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "yosei"
+  }
+}
+
+<> 2020-02-12T115852.200.json
+
+###
+
+POST http://localhost:8080/pool/new
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json

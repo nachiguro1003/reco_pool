@@ -2,32 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d6af9f8-2a3e-45cd-bff9-bae4c50d7805" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-02-12T105114.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-02-12T105239.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-02-12T105612.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-02-12T105847.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-02-12T105915.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-02-12T110231.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/model/pool.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/reco.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/model/reco.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/model/user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/datastore/db/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_user_relation/commander.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_joiner/commander.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_user_relation/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_joiner/type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/reco.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/commander.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/commander.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/querier.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/querier.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface/controllers/pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/controllers/pool.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface/router/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/router/routes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usecase/user/controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/usecase/user/controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usecase/user/presenter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/usecase/user/presenter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usecase/user/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/usecase/user/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/model/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/model/pool_joiner.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/model/reco.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/model/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/db/db.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/category/category.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool/commander.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool/querier.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_joiner/commander.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_joiner/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_reco_relations/pool_reco_relation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/commander.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/querier.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/commander.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/querier.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure/datastore/repository/user/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/controllers/auth.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/controllers/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/controllers/reco.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/controllers/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/presenter/index.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/presenter/pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/presenter/reco.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/presenter/user.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/router/api/api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/router/routes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/pool/controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/pool/presenter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/pool/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/reco/controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/reco/presenter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/reco/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/user/controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/user/presenter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usecase/user/type.go" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -42,92 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interface/presenter/user.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interface/router/routes.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/model/user.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_joiner/commander.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/infrastructure/datastore/repository/pool/type.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="14" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_joiner/type.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/model/pool_joiner.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interface/router/api/api.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interface/controllers/auth.go">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -144,6 +80,11 @@
   <component name="GOROOT" path="/usr/local/Cellar/go/1.13.7/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="docker-compose" />
+      </map>
+    </option>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -215,8 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,54 +164,12 @@
               <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
               <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interface" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="usecase" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -915,11 +813,12 @@
       <workItem from="1582520448523" duration="3746000" />
       <workItem from="1583404923107" duration="3945000" />
       <workItem from="1583490705719" duration="983000" />
+      <workItem from="1583559372925" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34877000" />
+    <option name="totallyTimeSpent" value="35174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,7 +832,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22174536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -947,7 +846,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.036144577" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.53975904" />
       <window_info anchor="bottom" id="Docker" order="8" weight="0.27831325" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.48433736" />
@@ -1021,13 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1305,6 +1197,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/presenter/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface/router/routes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/model/user.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_joiner/commander.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1333,38 +1253,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface/presenter/user.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/model/user.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interface/router/routes.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interface/router/api/api.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1372,6 +1264,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

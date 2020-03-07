@@ -1,5 +1,11 @@
 version: "3.7"
 services:
+  app:
+    build: .
+    volumes:
+      - ./:/go/src/github.com/reco-pool
+    ports:
+      - "8080:8080"
   db:
     image: postgres:alpine
     environment:

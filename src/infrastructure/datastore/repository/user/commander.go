@@ -3,9 +3,11 @@ package user_repository
 import (
 	"github.com/jinzhu/gorm"
 	"github.com/reco_pool/src/domain/model"
+	"log"
 )
 
-func (u *UserRepository)Create(db *gorm.DB) (*model.User,error) {
+func (u *User)Create(db *gorm.DB) (*model.User,error) {
+	log.Print(u)
 	if err := db.Create(&u).Error; err != nil {
 		return nil,err
 	}

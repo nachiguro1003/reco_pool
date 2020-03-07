@@ -5,12 +5,12 @@ import (
 	"github.com/reco_pool/src/domain/model"
 )
 
-type UserRepository struct {
+type User struct {
 	gorm.Model
 
 	model.User
 }
 
-func NewUserRepository() *UserRepository {
-	return &UserRepository{}
+func NewUserRepository() *User {
+	return &User{}
 }

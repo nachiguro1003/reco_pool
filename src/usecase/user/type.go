@@ -8,7 +8,7 @@ import (
 
 type (
 	UserService struct {
-		UserRepository UserServicer
+		User UserServicer
 	}
 
 	UserServicer interface {
@@ -17,8 +17,8 @@ type (
 	}
 )
 
-func NewUserService() *UserService {
+func NewUserService(repo *user_repository.User) *UserService {
 	return &UserService{
-		UserRepository: user_repository.NewUserRepository(),
+		User: repo,
 	}
 }

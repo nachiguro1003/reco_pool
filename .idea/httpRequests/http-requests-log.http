@@ -1,3 +1,197 @@
+POST http://localhost:8080/reco/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "title": "sample",
+  "image_id": 0,
+  "url": "sample_url",
+  "category_id":0,
+  "status": 0,
+  "user_id":1,
+  "pool_id": 1
+}
+
+<> 2020-03-05T083546.200.json
+
+###
+
+POST http://localhost:8080/reco/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "title": "sample",
+  "image_id": 0,
+  "url": "sample_url",
+  "category_id":0,
+  "status": 0,
+  "user_id":"1",
+  "pool_id": "1"
+}
+
+<> 2020-03-05T083536.400.txt
+
+###
+
+POST http://localhost:8080/reco/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "title": "sample",
+  "image_id": 0,
+  "url": "sample_url",
+  "category_id":0,
+  "status": "sample",
+  "user_id":"1",
+  "pool_id": "1"
+}
+
+<> 2020-03-05T083530.400.txt
+
+###
+
+POST http://localhost:8080/reco/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "title": "sample",
+  "image_id": 0,
+  "url": "sample_url",
+  "category_id":0,
+  "status": "sample",
+  "user_id":"1",
+  "pool_id": "1"
+}
+
+<> 2020-03-05T083506.404.txt
+
+###
+
+POST http://localhost:8080/reco/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "title": "sample",
+  "image_id": 0,
+  "url": "sample_url",
+  "category_id":0,
+  "status": "sample",
+  "user_id":"1",
+  "pool_id": "1"
+}
+
+<> 2020-03-05T083434.404.txt
+
+###
+
+POST http://localhost:8080/users/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "aaa",
+    "name": "yoyo"
+}
+
+<> 2020-03-05T080058.200.json
+
+###
+
+POST http://localhost:8080/users/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "aaa",
+    "name": "yoyo"
+}
+
+<> 2020-03-05T075836.200.json
+
+###
+
+POST http://localhost:8080/users/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "aaa",
+    "name": "yoyo"
+}
+
+<> 2020-03-05T075446.200.json
+
+###
+
+POST http://localhost:8080/users/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "aaa",
+    "name": "yoyo"
+}
+
+<> 2020-03-05T075429.200.json
+
+###
+
+POST http://localhost:8080/users/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "aaa",
+    "name": "yoyo"
+}
+
+<> 2020-03-05T074802.200.json
+
+###
+
+POST http://localhost:8080/users/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "aaa",
+    "name": "yoyo"
+}
+
+<> 2020-03-05T074747.404.txt
+
+###
+
+POST http://localhost:8080/users/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "aaa",
+    "name": "yoyo"
+}
+
+<> 2020-03-05T074726.404.txt
+
+###
+
+POST http://localhost:8080/user/new
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "aaa",
+    "name": "yoyo"
+}
+
+<> 2020-03-05T074700.404.txt
+
+###
+
 POST http://localhost:8080/pool/new
 Cache-Control: no-cache
 Content-Type: application/json
@@ -594,54 +788,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2020-02-12T110232.500.json
-
-###
-
-POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-02-12T110231.500.json
-
-###
-
-POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-02-12T105915.500.json
-
-###
-
-POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-02-12T105847.500.json
-
-###
-
-POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-02-12T105612.200.json
-
-###
-
-POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-02-12T105239.200.json
-
-###
-
-POST http://localhost:8080/pool/new?id=1&name=test&slug=test&is_public=false&password=pass
-Accept: */*
-Cache-Control: no-cache
-
-<> 2020-02-12T105114.200.json
 
 ###
 

@@ -8,7 +8,3 @@ type (
 		Password string `json:"password" gorm:"type:VARCHAR(100)"`
 	}
 )
-
-func NewPool() *Pool {
-	return &Pool{}
-}

@@ -13,6 +13,21 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api_reco_c.http">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api_user_c.http">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/.editorconfig">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
           <value>
             <PaintGroupHighlightMap />
@@ -44,6 +59,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/domain/model/pool.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/domain/model/pool_joiner.go">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -118,6 +138,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_joiner/type.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_reco_relations/pool_reco_relation.go">
           <value>
             <PaintGroupHighlightMap />
@@ -133,7 +158,22 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/commander.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/querier.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/reco.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/infrastructure/datastore/repository/reco/type.go">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -173,6 +213,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/interface/controllers/auth.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/interface/controllers/index.go">
           <value>
             <PaintGroupHighlightMap />
@@ -183,7 +228,32 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/interface/controllers/reco.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/interface/controllers/user.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/interface/presenter/pool.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/interface/presenter/reco.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/interface/presenter/user.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/interface/router/api/api.go">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -214,6 +284,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/usecase/pool/type.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/usecase/reco/controller.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/usecase/reco/presenter.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/usecase/reco/type.go">
           <value>
             <PaintGroupHighlightMap />
           </value>

@@ -5,7 +5,7 @@ import (
 )
 
 func (us *UserService)GetPool(db *gorm.DB) error {
-	err := us.UserRepository.Get(db)
+	_,err := us.User.Get(db)
 	if err != nil {
 		return err
 	}

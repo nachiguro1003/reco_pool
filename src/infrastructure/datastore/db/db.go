@@ -6,7 +6,7 @@ import (
 	"github.com/reco_pool/src/infrastructure/datastore/repository/category"
 	"github.com/reco_pool/src/infrastructure/datastore/repository/pool"
 	"github.com/reco_pool/src/infrastructure/datastore/repository/pool_reco_relations"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/pool_user_relation"
+	"github.com/reco_pool/src/infrastructure/datastore/repository/pool_joiner"
 	"github.com/reco_pool/src/infrastructure/datastore/repository/reco"
 	"github.com/reco_pool/src/infrastructure/datastore/repository/user"
 )
@@ -38,10 +38,10 @@ func Close() {
 }
 
 func autoMigration() {
-	db.AutoMigrate(user_repository.UserRepository{})
+	db.AutoMigrate(user_repository.User{})
 	db.AutoMigrate(pool_repository.Pool{})
 	db.AutoMigrate(category.Category{})
-	db.AutoMigrate(reco_repository.RecoRepository{})
+	db.AutoMigrate(reco_repository.Reco{})
 	db.AutoMigrate(pool_reco_relations.PoolRecoRelation{})
-	db.AutoMigrate(pool_user_relation.PoolUserRelation{})
+	db.AutoMigrate(pool_joiner.PoolUserRelation{})
 }

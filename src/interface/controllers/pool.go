@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-func NewPool(c *gin.Context) {
+func PoolCreate(c *gin.Context) {
 	d := db.GetDB()
 	pe := pool_repository.NewPoolRepository()
 

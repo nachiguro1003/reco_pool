@@ -2,7 +2,7 @@ package reco_repository
 
 import (
 	"github.com/jinzhu/gorm"
-	 "github.com/reco_pool/src/domain/model"
+	 "github.com/nachiguro1003/reco_pool/src/domain/model"
 )
 
 func (r *Reco)Get(db *gorm.DB) (*model.Reco,error) {

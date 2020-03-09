@@ -3,12 +3,12 @@ package db
 import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres" // Use PostgreSQL in gorm
-	"github.com/reco_pool/src/infrastructure/datastore/repository/category"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/pool"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/pool_reco_relations"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/pool_joiner"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/reco"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/user"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/category"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/pool"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/pool_reco_relations"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/pool_joiner"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/reco"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/user"
 )
 
 var (
@@ -18,7 +18,7 @@ var (
 
 // Init is initialize db from main function
 func Init() {
-	db, err = gorm.Open("postgres", "host=0.0.0.0 port=5432 user=postgres dbname=reco-pool password=postgres sslmode=disable")
+	db, err = gorm.Open("postgres", "host=db port=5432 user=postgres dbname=reco-pool password=postgres sslmode=disable")
 	if err != nil {
 		panic(err)
 	}

@@ -28,6 +28,11 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/.fresh.conf">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
           <value>
             <PaintGroupHighlightMap />
@@ -44,6 +49,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/go.mod">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/go.sum">
           <value>
             <PaintGroupHighlightMap />
           </value>
@@ -234,6 +244,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/interface/controllers/user.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/interface/presenter/index.go">
           <value>
             <PaintGroupHighlightMap />
           </value>

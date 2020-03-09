@@ -2,9 +2,9 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/reco_pool/src/infrastructure/datastore/db"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/user"
-	"github.com/reco_pool/src/usecase/user"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/db"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/user"
+	"github.com/nachiguro1003/reco_pool/src/usecase/user"
 	"log"
 	"net/http"
 )

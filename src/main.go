@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/reco_pool/src/infrastructure/datastore/db"
-	"github.com/reco_pool/src/interface/router"
-	"github.com/reco_pool/src/interface/router/api"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/db"
+	"github.com/nachiguro1003/reco_pool/src/interface/router"
+	"github.com/nachiguro1003/reco_pool/src/interface/router/api"
 )
 
 func main() {

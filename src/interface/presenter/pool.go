@@ -2,10 +2,10 @@ package presenter
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/reco_pool/src/domain/model"
-	"github.com/reco_pool/src/infrastructure/datastore/db"
-	"github.com/reco_pool/src/infrastructure/datastore/repository/pool"
-	"github.com/reco_pool/src/usecase/pool"
+	"github.com/nachiguro1003/reco_pool/src/domain/model"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/db"
+	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/pool"
+	"github.com/nachiguro1003/reco_pool/src/usecase/pool"
 	"net/http"
 )
 

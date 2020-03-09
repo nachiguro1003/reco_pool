@@ -2,8 +2,8 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/reco_pool/src/interface/controllers"
-	"github.com/reco_pool/src/interface/presenter"
+	"github.com/nachiguro1003/reco_pool/src/interface/controllers"
+	"github.com/nachiguro1003/reco_pool/src/interface/presenter"
 )
 
 func RegisterRoutingGroup(r *gin.Engine) {

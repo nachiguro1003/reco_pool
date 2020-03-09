@@ -1,9 +1,8 @@
-FROM golang:1.12.6
+FROM golang:1.12.6-alpine3.9
 LABEL maintainer=yoseiito
-WORKDIR /go/src/github.com/reco-pool
+WORKDIR /go/src/github.com/nachiguro1003/reco-pool/
 ENV GO111MODULE=on
 RUN apk add --no-cache \
         git \
-    && go get github.com/pilu/fresh
-EXPOSE 8080
-CMD ["fresh"]
+        && go get github.com/pilu/fresh
+CMD ["/bin/true"]

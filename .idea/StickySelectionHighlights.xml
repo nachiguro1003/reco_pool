@@ -3,26 +3,6 @@
   <component name="StickySelectionHighlights">
     <option name="editorHighlights">
       <map>
-        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
-          <value>
-            <PaintGroupHighlightMap />
-          </value>
-        </entry>
-        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api2.http">
-          <value>
-            <PaintGroupHighlightMap />
-          </value>
-        </entry>
-        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api_reco_c.http">
-          <value>
-            <PaintGroupHighlightMap />
-          </value>
-        </entry>
-        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api_user_c.http">
-          <value>
-            <PaintGroupHighlightMap />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/.editorconfig">
           <value>
             <PaintGroupHighlightMap />
@@ -324,6 +304,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/usecase/user/type.go">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/test.sh">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api2.http">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api_reco_c.http">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/scratches/rest-api_user_c.http">
           <value>
             <PaintGroupHighlightMap />
           </value>

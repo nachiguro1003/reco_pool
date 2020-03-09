@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0d6af9f8-2a3e-45cd-bff9-bae4c50d7805" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose/backend-app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/compose/backend-app/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -15,31 +19,44 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="reco-pool" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/wait-for-it/wait-for-it.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wait-for-it/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-587" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/compose/backend-app/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -68,8 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool/pool.go" />
-        <option value="$PROJECT_DIR$/src/interface/controllers/index.go" />
         <option value="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_user_relation/pool_user_relation.go" />
         <option value="$PROJECT_DIR$/src/infrastructure/datastore/repository/pool_reco_relations/pool_reco_relation.go" />
         <option value="$PROJECT_DIR$/src/infrastructure/datastore/repository/category/category.go" />
@@ -118,6 +133,8 @@
         <option value="$PROJECT_DIR$/src/interface/router/api/api.go" />
         <option value="$PROJECT_DIR$/src/domain/model/user.go" />
         <option value="$PROJECT_DIR$/src/interface/controllers/auth.go" />
+        <option value="$PROJECT_DIR$/test.sh" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/compose/backend-app/Dockerfile" />
       </list>
     </option>
@@ -133,30 +150,19 @@
     </navigator>
     <panes>
       <pane id="Course" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="compose" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reco_pool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reco_pool" type="462c0819:PsiDirectoryNode" />
-              <item name="compose" type="462c0819:PsiDirectoryNode" />
-              <item name="backend-app" type="462c0819:PsiDirectoryNode" />
+              <item name="reco-pool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reco-pool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,6 +183,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -746,6 +753,16 @@
     </option>
   </component>
   <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="reco_pool" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="github.com/reco-pool" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="reco_pool" />
       <working_directory value="$PROJECT_DIR$" />
@@ -753,6 +770,17 @@
       <filePath value="$PROJECT_DIR$/src/main.go" />
       <package value="github.com/reco_pool" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="reco_pool" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/reco-pool" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="rest-api_reco_c#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_reco_c.http">
@@ -801,11 +829,12 @@
       <workItem from="1583404923107" duration="3945000" />
       <workItem from="1583490705719" duration="983000" />
       <workItem from="1583559372925" duration="297000" />
+      <workItem from="1583641001718" duration="11772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35645000" />
+    <option name="totallyTimeSpent" value="50015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -818,15 +847,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22174536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49905837" visible="true" weight="0.22460657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50094163" side_tool="true" weight="0.22460657" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.3686747" />
@@ -834,7 +862,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.35421687" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" visible="true" weight="0.36024097" />
       <window_info anchor="bottom" id="Docker" order="8" weight="0.27831325" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.48433736" />
@@ -896,35 +924,7 @@
     <proxy>direct</proxy>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../pkg/mod/github.com/gin-gonic/gin@v1.5.0/tree.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../pkg/mod/github.com/gin-gonic/gin@v1.5.0/context.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="568" column="21" selection-start-line="568" selection-start-column="21" selection-end-line="568" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infrastructure/datastore/repository/category/category.go" />
-    <entry file="file://$PROJECT_DIR$/../../pkg/mod/github.com/jinzhu/gorm@v1.9.12/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="352" column="13" selection-start-line="352" selection-start-column="13" selection-end-line="352" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/pkg/mod/github.com/jinzhu/gorm@v1.9.12/main.go" />
     <entry file="file://$PROJECT_DIR$/src/infrastructure/datastore/repository/pool/querier.go" />
     <entry file="file://$PROJECT_DIR$/src/infrastructure/datastore/repository/pool/commander.go" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -1005,17 +1005,40 @@
     <entry file="file://$PROJECT_DIR$/src/domain/model/pool_joiner.go" />
     <entry file="file://$PROJECT_DIR$/src/interface/router/api/api.go" />
     <entry file="file://$PROJECT_DIR$/src/interface/controllers/auth.go" />
-    <entry file="file://$PROJECT_DIR$/compose/backend-app/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/go.mod" />
+    <entry file="file://$PROJECT_DIR$/wait-for-it/wait-for-it.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wait-for-it/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-587" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compose/backend-app/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

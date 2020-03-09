@@ -1,16 +1,22 @@
 version: "3.7"
 services:
-  app:
-    build: .
+  backend-app:
+    build: ./compose/backend-app
+    depends_on:
+      - db
     volumes:
-      - ./:/go/src/github.com/reco-pool
+      - ~/go/src/github.com/nachiguro1003/reco_pool:/go/src/github.com/nachiguro1003/reco_pool
     ports:
       - "8080:8080"
+    command: tail -f /dev/null
   db:
     image: postgres:alpine
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: reco-pool
+    expose:
+      - "5432"
     ports:
       - 5432:5432
+    command: postgres -c log_destination=stderr -c log_statement=all -c log_connections=on -c log_disconnections=on

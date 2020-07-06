@@ -1,3 +1,0 @@
-"failed to create pool"
-"failed to create pool"
-"pool created"

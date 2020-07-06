@@ -7,13 +7,20 @@ import (
 	"github.com/nachiguro1003/reco_pool/src/interface/router/api"
 )
 
-func main() {
+func run() error {
 	r := gin.Default()
 	router.RegisterRoutingGroup(r)
 	api.RegisterAPIRoutingGroup(r)
 	db.Init()
 	if err := r.Run(); err != nil {
-		panic(err)
+		return err
 	}
 	db.Close()
+	return nil
+}
+
+func main() {
+	if err := run();err != nil {
+		panic(err)
+	}
 }

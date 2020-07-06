@@ -1,1 +1,0 @@
-"json: cannot unmarshal string into Go struct field Pool.pool.is_public of type bool"

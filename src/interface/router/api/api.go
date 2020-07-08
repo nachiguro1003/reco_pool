@@ -2,8 +2,8 @@ package api
 
 import (
 "github.com/gin-gonic/gin"
-"github.com/nachiguro1003/reco_pool/src/interface/controllers"
-"github.com/nachiguro1003/reco_pool/src/interface/presenter"
+"github.com/nachiguro1003/reco-pool/src/interface/controllers"
+"github.com/nachiguro1003/reco-pool/src/interface/presenter"
 )
 
 func RegisterAPIRoutingGroup(r *gin.Engine) {

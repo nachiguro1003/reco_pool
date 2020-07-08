@@ -1,47 +1,47 @@
 package db
 
 import (
-	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres" // Use PostgreSQL in gorm
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/category"
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/pool"
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/pool_reco_relations"
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/pool_joiner"
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/reco"
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/user"
+	"github.com/nachiguro1003/reco-pool/src/infrastructure/datastore/db/postgresql"
 )
 
-var (
-	db  *gorm.DB
-	err error
-)
-
-// Init is initialize db from main function
-func Init() {
-	db, err = gorm.Open("postgres", "host=db port=5432 user=postgres dbname=reco-pool password=postgres sslmode=disable")
-	if err != nil {
-		panic(err)
-	}
-	autoMigration()
+type RecoPoolDBManager struct {
+	DBs []DBManager
 }
 
-// GetDB is called in models
-func GetDB() *gorm.DB {
-	return db
+type DBManager interface {
+	Open() error
+	Close() error
+}
+
+func RecoPoolDbList() []DBManager{
+	postgres := postgresql.Init()
+
+	pdb,_ := interface{}(postgres).(DBManager)
+
+	return []DBManager{
+		pdb,
+	}
+}
+
+// Init is initialize db from main function
+func Init() (*RecoPoolDBManager,error) {
+	dbs := RecoPoolDbList()
+	for _,v := range dbs {
+		if err := v.Open();err != nil {
+			return nil,err
+		}
+	}
+	return &RecoPoolDBManager{
+		DBs:dbs,
+	},nil
 }
 
 // Close is closing db
-func Close() {
-	if err := db.Close(); err != nil {
-		panic(err)
+func (rdbm *RecoPoolDBManager) Close() {
+	for _,v := range rdbm.DBs {
+		if err:= v.Close(); err != nil {
+			panic(err)
+		}
 	}
-}
-
-func autoMigration() {
-	db.AutoMigrate(user_repository.User{})
-	db.AutoMigrate(pool_repository.Pool{})
-	db.AutoMigrate(category.Category{})
-	db.AutoMigrate(reco_repository.Reco{})
-	db.AutoMigrate(pool_reco_relations.PoolRecoRelation{})
-	db.AutoMigrate(pool_joiner.PoolUserRelation{})
 }

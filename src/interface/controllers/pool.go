@@ -2,14 +2,14 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/db"
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/repository/pool"
-	"github.com/nachiguro1003/reco_pool/src/usecase/pool"
+	"github.com/nachiguro1003/reco-pool/src/infrastructure/datastore/db/postgresql"
+	"github.com/nachiguro1003/reco-pool/src/infrastructure/datastore/repository/pool"
+	"github.com/nachiguro1003/reco-pool/src/usecase/pool"
 	"net/http"
 )
 
 func PoolCreate(c *gin.Context) {
-	d := db.GetDB()
+	d := postgresql.GetPostgresInstance()
 	pe := pool_repository.NewPoolRepository()
 
 	if err := c.BindJSON(&pe); err != nil {
@@ -17,7 +17,7 @@ func PoolCreate(c *gin.Context) {
 		return
 	}
 	ps := pool_service.NewPoolService(pe)
-	err := ps.CreatePool(d)
+	err := ps.CreatePool(d.DB)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError,err.Error())
 		return

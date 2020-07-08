@@ -2,14 +2,14 @@ package presenter
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/nachiguro1003/reco_pool/src/domain/model"
-	"github.com/nachiguro1003/reco_pool/src/infrastructure/datastore/db"
+	"github.com/nachiguro1003/reco-pool/src/domain/model"
+	"github.com/nachiguro1003/reco-pool/src/infrastructure/datastore/db/postgresql"
 	"net/http"
 )
 
 func Recos(c *gin.Context) {
-	d := db.GetDB()
+	d := postgresql.GetPostgresInstance()
 	recos := []*model.Reco{}
-	d.Find(&recos)
+	d.DB.Find(&recos)
 	c.JSON(http.StatusOK,recos)
 }
